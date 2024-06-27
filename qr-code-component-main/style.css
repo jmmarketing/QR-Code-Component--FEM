@@ -10,14 +10,19 @@ body {
   font-family: Outfit, sans-serif;
   background-color: hsl(212, 45%, 89%);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  width: 25vw;
+  width: 100%;
   border-radius: 25px;
   max-width: 300px;
   padding: 20px;
+  margin-bottom: 5px;
 }
 
 .card__qr-image {
@@ -30,12 +35,14 @@ body {
   text-align: center;
   font-size: 1.3rem;
   margin: 10px 0;
+  font-weight: 700;
 }
 
 .card__sub-title {
   color: hsl(220, 15%, 55%);
   font-size: 0.95rem;
   text-align: center;
+  font-weight: 400;
 }
 
 .attribution {
