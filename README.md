@@ -1,1 +1,1 @@
-# frontend-practice
+# QR Code Basic Styling
